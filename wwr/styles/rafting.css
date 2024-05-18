@@ -20,9 +20,22 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
 }
+  
+header img {
+    max-width: 100px;
+}
+  
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 
 nav a {
     color: white;
@@ -58,6 +71,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer a {
@@ -100,3 +115,38 @@ footer a img {
     float: right;
     margin-left: 10px;
 }
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+  
+.history div {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.adventures figure {
+    text-align: center;
+}
+  
+.adventures img {
+    max-width: 100%;
+}
+  
+.adventures figcaption {
+    margin-top: 10px;
+}  
+
+  
+.footer-sociallink img {
+    width: 30px;
+    margin-left: 10px;
+  }
+  
