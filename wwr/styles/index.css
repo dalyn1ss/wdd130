@@ -173,6 +173,13 @@ main {
     cursor: pointer;
 }
 
+.tripes {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
 
 footer {
     padding: 10px 20px;
