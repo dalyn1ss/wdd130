@@ -104,6 +104,17 @@ main {
     left: 80%;
 }
 
+.text-banner {
+    font-size: 2em;
+    background-color: #839D9A;
+    margin: auto;
+    color: white;
+    position: absolute;
+    top: 17vw;
+    text-align: center;
+    padding: 3vw;
+
+}
 
 .content {
     display: flex;
@@ -175,10 +186,44 @@ main {
 
 .tripes {
     display: flex;
+    margin-bottom: 5vw;
+    flex-wrap: wrap;
+}
+
+.tripes h2 {
+    margin: 2vw;
+    text-align: center;
+}
+
+.tripes-choice {
+    display: flex;
     flex-direction: row;
     max-width: 100%;
     justify-content: space-around;
     text-align: center;
+    margin: 1vw;
+}
+
+.tripes-choice h3 {
+    margin: 1vw;
+}
+
+.tripes-choice p {
+    margin-bottom: 1vw;
+}
+
+.tripes-choice img {
+    max-width: 100%;
+    max-height: 16vw;
+    margin-bottom: 1vw;
+}
+
+.tripes-choice button {
+    padding: 10px 20px;
+    background-color: #7BB2D9;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
