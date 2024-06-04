@@ -10,76 +10,151 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    height: 100px;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 10px 10px;
+    background-color: #46351D;
     color: white;
 }
 
+img {
+    max-width: 30%;
+    height: auto;
+}
 
 nav a {
     display: inline;
     margin-right: 20px;
-}
-
-nav a {
     text-decoration: none;
     color: white;
 }
 
-
 main {
-    padding: 20px;
+    padding: 0px;
 }
 
 .banner {
+    display: flex;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .banner h1 {
     font-size: 2em;
-	  color: white
+    margin: auto;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 35vw;
+
 }
 
 .banner img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+    display: grid;
 }
 
 .banner button {
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 10px 30px;
+    background-color: #555234;
     color: white;
     border: none;
     cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 80%;
 }
+
+.banner2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.banner2 h1 {
+    font-size: 3em;
+    margin: auto;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+
+}
+
+.banner2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: grid;
+}
+
+.banner2 button {
+    padding: 10px 30px;
+    background-color: #555234;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+
 
 .content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .small-images {
-    flex: 1;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .small-images img {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.big-photo {
+    padding: 20px 40px;
     width: 100%;
-    margin-bottom: 10px;
+    position: relative;
+}
+
+.big-photo img {
+    max-width: 50vw;
+}
+
+.big-photo .floating-text {
+    border: 2px solid #46351D;
+    background-color: #839D9A;
+    border-radius: 16px;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 45vw;
+    padding: 15px 40px;
 }
 
 .large-image {
-    flex: 1;
+    text-align: center;
 }
 
 .text-box {
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.text-box>div {
+    margin-bottom: 15px;
 }
 
 .text-box h2 {
@@ -92,7 +167,7 @@ main {
 
 .text-box button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #555234;
     color: white;
     border: none;
     cursor: pointer;
@@ -101,7 +176,7 @@ main {
 
 footer {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #46351D;
     color: white;
     text-align: center;
 }
